@@ -1,0 +1,139 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    scrollbar-width: 10px;
+    overflow: hidden;
+    font-family: sans-serif;
+
+   
+}
+.navbar {
+    width: 100%;
+    overflow: auto;
+    justify-content: center;
+    display: flex;
+    
+  }
+  .navbar a {
+    float: left;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 15px;
+    font-style: italic;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+  }
+  .navbar a:hover {
+    border: 1px;
+    border-bottom: solid 2px;
+    border-color: yellow;
+    
+   
+
+  }
+ 
+
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+  .je{
+    float: left;
+    padding: 20px;
+    border: 1px;
+    border-radius: 10px;
+    color: darkturquoise;
+    background-image: linear-gradient(yellow,white);
+  }
+  @keyframes move {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(50px); }
+    100% { transform: translateY(0px); }
+  }
+  .dot {
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    background-image:radial-gradient(yellow,rgb(244, 242, 171));
+    position: absolute;
+  }
+  .dot1 {
+    left: 30%;
+    top: 5%;
+    animation: move 5s infinite;
+  }
+  .dot2 {
+    top: 6%;
+    right:90%;
+    animation: move 4s infinite;
+  }
+  
+  .dot3 {
+    right: 80%;
+    top: 80%;
+    animation: move 3s infinite;
+  }
+  
+  .brush {
+    float: right;
+    position: absolute;
+    left:50%;
+    bottom: 20%;
+    background-image: url(../OIP.jpg);
+    background-repeat: no-repeat;
+    animation: move 6s infinite;
+  }
+  .intro{
+    position:absolute;
+    bottom: 45%;
+    left: 20%;
+    font-size: 20px;
+  }
+.lin{
+    color: yellow;
+    font-size: 40px;
+}
+.co{
+    color: yellow;
+    
+}
+.m{
+    font-size:50px;
+}
+.me{
+    float: right;
+    position: absolute;
+    left:50%;
+    top: 20%;
+    border: 1px;
+    border-radius:20px;
+    animation: move 10s infinite;
+}
+.botn{
+  position: relative;
+  top: 350px;
+  left: 250px;
+}
+.ee{
+  background-color: aliceblue;
+  border-radius: 10px;
+  border: none;
+  border-bottom: 2px solid yellow;
+  cursor:pointer;
+}
+.gi{
+  position: relative;
+  top: 190px;
+  left: 240px;
+}
+.cj{
+  position: relative;
+  top: 140px;
+  left: 370px;
+}
+
